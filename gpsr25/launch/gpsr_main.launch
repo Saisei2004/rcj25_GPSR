@@ -1,0 +1,42 @@
+<launch>
+  <!-- 1秒遅延 -->
+  <node pkg="rcj25" type="delay.py" name="delay0">
+    <param name="duration" value="1.0" />
+  </node>
+
+  <!-- gpsr-super8.py -->
+  <node pkg="rcj25" type="gpsr-super8.py" name="gpsr_super6" output="screen" />
+
+  <!-- 1秒遅延 -->
+  <node pkg="rcj25" type="delay.py" name="delay1">
+    <param name="duration" value="1.0" />
+  </node>
+
+  <!-- gpsr-qrreader3.py -->
+  <node pkg="rcj25" type="gpsr-qrreader3.py" name="gpsr_qrreader3" output="screen" />
+
+  <!-- 1秒遅延 -->
+  <node pkg="rcj25" type="delay.py" name="delay2">
+    <param name="duration" value="1.0" />
+  </node>
+
+  <!-- shelf_object_feature_service.py -->
+  <node pkg="rcj25" type="gpsr-mono7.py" name="shelf_object_feature" output="screen"/>
+
+  <!-- 1秒遅延 -->
+  <node pkg="rcj25" type="delay.py" name="delay3">
+    <param name="duration" value="1.0" />
+  </node>
+
+  <!-- ask_person_dis.py -->
+  <node pkg="rcj25" type="ask_person_dis.py" name="distance_node" output="screen" />
+  
+  <!-- 1秒遅延 -->
+  <node pkg="rcj25" type="delay.py" name="delay4">
+    <param name="duration" value="1.0" />
+  </node>
+
+  <!-- tool_number_objects.py -->
+  <node pkg="tu_package" type="tool_number_objects.py" name="recognition_service_node" output="screen" />
+
+</launch> 

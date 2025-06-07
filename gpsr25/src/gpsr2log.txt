@@ -1,0 +1,366 @@
+network1
+Cleared http_proxy and https_proxy
+mimi@mimi:~$ gogpsr 
+/home/mimi/main_ws/src/rcj25_master/gpsr25/src/ex_mod.py:67: SyntaxWarning: The publisher should be created with an explicit keyword argument 'queue_size'. Please see http://wiki.ros.org/rospy/Overview/Publishers%20and%20Subscribers for more information.
+  clip_pub = rospy.Publisher('/clip_sign', String)
+/home/mimi/main_ws/src/rcj25_master/gpsr25/src/ex_mod.py:133: SyntaxWarning: The publisher should be created with an explicit keyword argument 'queue_size'. Please see http://wiki.ros.org/rospy/Overview/Publishers%20and%20Subscribers for more information.
+  clip_pub = rospy.Publisher('/clip_sign', String)
+0
+
+========== START rotateAngle ==========
+current deg: 359.0
+target deg: 719.0
+sub_target deg: 359.0
+rotateAngle
+Finish deg: 359.6
+========== FINISH rotateAngle ==========
+
+[INFO] [1746331925.680942]: 検出開始🎥
+
+========== START rotateAngle ==========
+current deg: 93.0
+target deg: 453.0
+sub_target deg: 93.0
+rotateAngle
+Finish deg: 93.9
+========== FINISH rotateAngle ==========
+
+result_talk: []
+in : tell me the age of the person in the living room
+オペレーターにliving roomにいる人のageを伝える
+
+living roomに移動
+
+========== START rotateAngle ==========
+current deg: 93.0
+target deg: 273.0
+sub_target deg: 0.0
+rotateAngle
+Finish deg: 273.2
+========== FINISH rotateAngle ==========
+
+living roomに移動
+人を探す1
+
+===== 📡 スキャン結果 =====
+🔧 モード    : find
+🧠 特徴     : people
+🔄 角度     : 180°
+--------------------------
+0
+[]
+
+👥 人数     : 0
+📐 角度一覧 : 該当なし
+📐 テキスト : 該当なし
+==========================
+
+angle_list [] これにマイナスかける
+Find 再試行します... (1回目/2回目中)
+
+===== 📡 スキャン結果 =====
+🔧 モード    : find
+🧠 特徴     : people
+🔄 角度     : 180°
+--------------------------
+0
+[]
+
+👥 人数     : 0
+📐 角度一覧 : 該当なし
+📐 テキスト : 該当なし
+==========================
+
+angle_list [] これにマイナスかける
+Find 再試行します... (2回目/2回目中)
+2回失敗したので終了します。
+前にいる人に近づく16
+[INFO] [1746332035.383376]: Start
+[INFO] [1746332035.384994]: last0
+人接近で、0.3320281675612302進む
+[INFO] [1746332035.397870]: ⇆ 直進/後退: 0.3320281675612302m（時間: 1.11s, 速度: 0.3）
+[INFO] [1746332036.506519]: ！！停止信号発信中！！
+[INFO] [1746332036.508109]: ！！停止信号発信中！！
+[INFO] [1746332036.509146]: ！！停止信号発信中！！
+[INFO] [1746332036.711542]: ⇆ 直進/後退: 0.001m（時間: 1.00s, 速度: 0.001）
+[INFO] [1746332037.714530]: ！！停止信号発信中！！
+[INFO] [1746332037.715911]: ！！停止信号発信中！！
+[INFO] [1746332037.717157]: ！！停止信号発信中！！
+[INFO] [1746332037.918331]: Fin
+[INFO] [1746332037.920056]: 0.3320281675612302
+🍏🍏🍏🍏🍏 0.3320281675612302
+<class 'person_distance.person_distance'>
+目の前の人のageの特徴を取得する7
+
+===== 📡 スキャン結果 =====
+🔧 モード    : single
+🧠 特徴     : just guess this persons age based on their appearance accuracy doesnt matter just give a two digit number no matter what
+🔄 角度     : 180°
+--------------------------
+0
+[]
+
+👥 人数     : 0
+📐 角度一覧 : 該当なし
+📐 テキスト : 該当なし
+==========================
+
+result {}
+operatorに移動
+
+========== START rotateAngle ==========
+current deg: 298.0
+target deg: 478.0
+sub_target deg: 118.0
+rotateAngle
+Finish deg: 118.2
+========== FINISH rotateAngle ==========
+
+Traceback (most recent call last):
+  File "/home/mimi/main_ws/src/rcj25_master/gpsr25/src/ex_mod.py", line 23, in <module>
+    from utils import *
+  File "/home/mimi/main_ws/src/rcj25_master/gpsr25/src/utils.py", line 4, in <module>
+    from gpsr_ai import obj_it
+  File "/home/mimi/main_ws/src/rcj25_master/gpsr25/src/gpsr_ai.py", line 1375, in <module>
+    execute_command(mapped_command,obj, name, placemen, person, talk, person_info, obj_comp, color, clothe,rooms_1, rooms_2)
+  File "/home/mimi/main_ws/src/rcj25_master/gpsr25/src/gpsr_ai.py", line 571, in execute_command
+    navigate(operator)
+  File "/home/mimi/main_ws/src/rcj25_master/gpsr25/src/ex_mod.py", line 1072, in navigate
+    navi(room)
+UnboundLocalError: local variable 'room' referenced before assignment
+mimi@mimi:~$ gogpsr 
+/home/mimi/main_ws/src/rcj25_master/gpsr25/src/ex_mod.py:67: SyntaxWarning: The publisher should be created with an explicit keyword argument 'queue_size'. Please see http://wiki.ros.org/rospy/Overview/Publishers%20and%20Subscribers for more information.
+  clip_pub = rospy.Publisher('/clip_sign', String)
+/home/mimi/main_ws/src/rcj25_master/gpsr25/src/ex_mod.py:133: SyntaxWarning: The publisher should be created with an explicit keyword argument 'queue_size'. Please see http://wiki.ros.org/rospy/Overview/Publishers%20and%20Subscribers for more information.
+  clip_pub = rospy.Publisher('/clip_sign', String)
+0
+
+========== START rotateAngle ==========
+current deg: 116.11958200508289
+target deg: 476.0
+sub_target deg: 116.0
+rotateAngle
+Finish deg: 116.1
+========== FINISH rotateAngle ==========
+
+[INFO] [1746332141.751572]: 検出開始🎥
+
+========== START rotateAngle ==========
+current deg: 91.0
+target deg: 451.0
+sub_target deg: 91.0
+rotateAngle
+Finish deg: 91.3
+========== FINISH rotateAngle ==========
+
+result_talk: []
+in : tell me the age of the person in the living room
+オペレーターにliving roomにいる人のageを伝える
+
+living roomに移動
+
+========== START rotateAngle ==========
+current deg: 91.0
+target deg: 271.0
+sub_target deg: 0.0
+rotateAngle
+Finish deg: 271.7
+========== FINISH rotateAngle ==========
+
+living roomに移動
+人を探す1
+
+===== 📡 スキャン結果 =====
+🔧 モード    : find
+🧠 特徴     : people
+🔄 角度     : 180°
+--------------------------
+0
+[]
+
+👥 人数     : 0
+📐 角度一覧 : 該当なし
+📐 テキスト : 該当なし
+==========================
+
+angle_list [] これにマイナスかける
+Find 再試行します... (1回目/2回目中)
+
+===== 📡 スキャン結果 =====
+🔧 モード    : find
+🧠 特徴     : people
+🔄 角度     : 180°
+--------------------------
+0
+[]
+
+👥 人数     : 0
+📐 角度一覧 : 該当なし
+📐 テキスト : 該当なし
+==========================
+
+angle_list [] これにマイナスかける
+Find 再試行します... (2回目/2回目中)
+2回失敗したので終了します。
+前にいる人に近づく16
+[INFO] [1746332230.249753]: Start
+[INFO] [1746332230.251445]: last0
+人接近で、0進む
+[INFO] [1746332230.253253]: ⇆ 直進/後退: 0m（時間: 0.00s, 速度: 0.3）
+[INFO] [1746332230.253897]: ！！停止信号発信中！！
+[INFO] [1746332230.254542]: ！！停止信号発信中！！
+[INFO] [1746332230.255481]: ！！停止信号発信中！！
+[INFO] [1746332230.456824]: ⇆ 直進/後退: 0.001m（時間: 1.00s, 速度: 0.001）
+[INFO] [1746332231.459591]: ！！停止信号発信中！！
+[INFO] [1746332231.461004]: ！！停止信号発信中！！
+[INFO] [1746332231.461691]: ！！停止信号発信中！！
+[INFO] [1746332231.662517]: Fin
+[INFO] [1746332231.663688]: 0.0
+🍏🍏🍏🍏🍏 0.0
+<class 'person_distance.person_distance'>
+目の前の人のageの特徴を取得する7
+
+===== 📡 スキャン結果 =====
+🔧 モード    : single
+🧠 特徴     : just guess this persons age based on their appearance accuracy doesnt matter just give a two digit number no matter what
+🔄 角度     : 180°
+--------------------------
+0
+[]
+
+👥 人数     : 0
+📐 角度一覧 : 該当なし
+📐 テキスト : 該当なし
+==========================
+
+result {}
+operatorに移動
+
+========== START rotateAngle ==========
+current deg: 284.0
+target deg: 464.0
+sub_target deg: 104.0
+rotateAngle
+Finish deg: 104.9
+========== FINISH rotateAngle ==========
+
+Traceback (most recent call last):
+  File "/home/mimi/main_ws/src/rcj25_master/gpsr25/src/ex_mod.py", line 23, in <module>
+    from utils import *
+  File "/home/mimi/main_ws/src/rcj25_master/gpsr25/src/utils.py", line 4, in <module>
+    from gpsr_ai import obj_it
+  File "/home/mimi/main_ws/src/rcj25_master/gpsr25/src/gpsr_ai.py", line 1375, in <module>
+    execute_command(mapped_command,obj, name, placemen, person, talk, person_info, obj_comp, color, clothe,rooms_1, rooms_2)
+  File "/home/mimi/main_ws/src/rcj25_master/gpsr25/src/gpsr_ai.py", line 571, in execute_command
+    navigate(operator)
+  File "/home/mimi/main_ws/src/rcj25_master/gpsr25/src/ex_mod.py", line 1072, in navigate
+    navi(room)
+UnboundLocalError: local variable 'room' referenced before assignment
+mimi@mimi:~$ gogpsr 
+/home/mimi/main_ws/src/rcj25_master/gpsr25/src/ex_mod.py:67: SyntaxWarning: The publisher should be created with an explicit keyword argument 'queue_size'. Please see http://wiki.ros.org/rospy/Overview/Publishers%20and%20Subscribers for more information.
+  clip_pub = rospy.Publisher('/clip_sign', String)
+/home/mimi/main_ws/src/rcj25_master/gpsr25/src/ex_mod.py:133: SyntaxWarning: The publisher should be created with an explicit keyword argument 'queue_size'. Please see http://wiki.ros.org/rospy/Overview/Publishers%20and%20Subscribers for more information.
+  clip_pub = rospy.Publisher('/clip_sign', String)
+0
+
+========== START rotateAngle ==========
+current deg: 103.0
+target deg: 463.0
+sub_target deg: 103.0
+rotateAngle
+Finish deg: 103.2
+========== FINISH rotateAngle ==========
+
+^CTraceback (most recent call last):
+  File "/home/mimi/main_ws/src/rcj25_master/gpsr25/src/ex_mod.py", line 23, in <module>
+    from utils import *
+  File "/home/mimi/main_ws/src/rcj25_master/gpsr25/src/utils.py", line 4, in <module>
+    from gpsr_ai import obj_it
+  File "/home/mimi/main_ws/src/rcj25_master/gpsr25/src/gpsr_ai.py", line 1296, in <module>
+    input_text = input_com()
+  File "/home/mimi/main_ws/src/rcj25_master/gpsr25/src/ex_mod.py", line 373, in input_com
+    tts_ser2("If you need help, scan the QR code.")
+  File "/opt/ros/noetic/lib/python3/dist-packages/rospy/impl/tcpros_service.py", line 442, in __call__
+    return self.call(*args, **kwds)
+  File "/opt/ros/noetic/lib/python3/dist-packages/rospy/impl/tcpros_service.py", line 525, in call
+    raise ServiceException("service [%s] returned no response"%self.resolved_name)
+rospy.service.ServiceException: service [/piper/tts] returned no response
+mimi@mimi:~$ gogpsr 
+/home/mimi/main_ws/src/rcj25_master/gpsr25/src/ex_mod.py:67: SyntaxWarning: The publisher should be created with an explicit keyword argument 'queue_size'. Please see http://wiki.ros.org/rospy/Overview/Publishers%20and%20Subscribers for more information.
+  clip_pub = rospy.Publisher('/clip_sign', String)
+/home/mimi/main_ws/src/rcj25_master/gpsr25/src/ex_mod.py:133: SyntaxWarning: The publisher should be created with an explicit keyword argument 'queue_size'. Please see http://wiki.ros.org/rospy/Overview/Publishers%20and%20Subscribers for more information.
+  clip_pub = rospy.Publisher('/clip_sign', String)
+0
+
+========== START rotateAngle ==========
+current deg: 12.0
+target deg: 372.0
+sub_target deg: 12.0
+rotateAngle
+Finish deg: 12.1
+========== FINISH rotateAngle ==========
+
+[INFO] [1746332383.520015]: 検出開始🎥
+
+========== START rotateAngle ==========
+current deg: 99.0
+target deg: 459.0
+sub_target deg: 99.0
+rotateAngle
+Finish deg: 99.1
+========== FINISH rotateAngle ==========
+
+result_talk: []
+in : tell me how many people raising their right arm are in the living room
+living roomにいるraising their right armを数えてオペレーターに伝える
+
+living roomに移動
+
+========== START rotateAngle ==========
+current deg: 99.0
+target deg: 279.0
+sub_target deg: 0.0
+rotateAngle
+Finish deg: 279.4
+========== FINISH rotateAngle ==========
+
+living roomに移動
+raising their right armポーズの人を数える3
+
+===== 📡 スキャン結果 =====
+🔧 モード    : count
+🧠 特徴     : raising their right armpose
+🔄 角度     : 180°
+--------------------------
+0
+[]
+
+👥 人数     : 0
+📐 角度一覧 : 該当なし
+📐 テキスト : 該当なし
+==========================
+
+count: 0 人
+operatorに移動
+
+========== START rotateAngle ==========
+current deg: 285.0
+target deg: 465.0
+sub_target deg: 105.0
+rotateAngle
+Finish deg: 105.0
+========== FINISH rotateAngle ==========
+
+Traceback (most recent call last):
+  File "/home/mimi/main_ws/src/rcj25_master/gpsr25/src/ex_mod.py", line 23, in <module>
+    from utils import *
+  File "/home/mimi/main_ws/src/rcj25_master/gpsr25/src/utils.py", line 4, in <module>
+    from gpsr_ai import obj_it
+  File "/home/mimi/main_ws/src/rcj25_master/gpsr25/src/gpsr_ai.py", line 1375, in <module>
+    execute_command(mapped_command,obj, name, placemen, person, talk, person_info, obj_comp, color, clothe,rooms_1, rooms_2)
+  File "/home/mimi/main_ws/src/rcj25_master/gpsr25/src/gpsr_ai.py", line 149, in execute_command
+    navigate(operator)
+  File "/home/mimi/main_ws/src/rcj25_master/gpsr25/src/ex_mod.py", line 1072, in navigate
+    navi(room)
+UnboundLocalError: local variable 'room' referenced before assignment
+mimi@mimi:~$ 

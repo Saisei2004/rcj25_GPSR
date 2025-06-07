@@ -1,0 +1,100 @@
+服
+tell me how many people in the living room are wearing black jackets
+followPrs
+findPrs
+goToLoc
+in : tell me how many people in the living room are wearing black jackets
+living roomにいるblack色のjacketを着ている人の数をオペレーターに伝える
+
+living roomに移動
+14🔵
+black色のjacketの服を着ている人を数える
+5🔵
+operatorに移動
+14🔵
+saved_infoを伝える
+13🔵
+
+greet the person wearing a red sweater in the kitchen and answer a quiz
+talkInfoToGestPrsInRoom
+in : greet the person wearing a red sweater in the kitchen and answer a quiz
+kitchenにいるred色のsweaterを着ている人にhelloと言う
+
+kitchenに移動
+14🔵
+red色のsweaterの服を着ている人を探す
+4🔵
+人に近づく
+15🔵
+挨拶と自己紹介をする
+11🔵
+
+目の前の人の質問に答える
+
+目の前の人を見る
+0🔵
+質問に答える
+10🔵
+
+ポーズ
+look for a person raising their right arm in the office and answer a question
+talkInfoToGestPrsInRoom
+in : look for a person raising their right arm in the office and answer a question
+raising their right armをofficeで探す
+
+officeに移動
+14🔵
+raising their right armポーズの人を見つける
+2🔵
+
+目の前の人の質問に答える
+
+目の前の人を見る
+0🔵
+質問に答える
+10🔵
+
+go to the living room then find the person crossing one's arms and tell where RoboCup is held this year
+talkInfoToGestPrsInRoom
+in : go to the living room then find the person crossing one's arms and tell where RoboCup is held this year
+living roomに行く
+
+living roomに移動
+14🔵
+
+crossing one's armsをその場で探す
+
+crossing one's armsポーズの人を見つける
+2🔵
+
+where RoboCup is held this yearを伝える
+
+where RoboCup is held this yearを伝える
+12🔵
+
+tell something about yourself to the person giving the v sign in the bathroom
+bringMeObjFromPlcmt
+in : tell something about yourself to the person giving the v sign in the bathroom
+bathroomにいるgiving the v signに、something about yourselfを伝える
+
+bathroomに移動
+14🔵
+giving the v signポーズの人を見つける
+2🔵
+something about yourselfを伝える
+12🔵
+
+渡す
+give me a cup from the table
+talkInfoToGestPrsInRoom
+in : give me a cup from the table
+tableにあるcupをオペレーターにもっていく
+
+tableに移動
+14🔵
+cupを持つ
+18⚪
+operatorに移動
+14🔵
+持っているものを渡す
+19⚪

@@ -1,0 +1,25 @@
+<?xml version="1.0"?>
+<package format="2">
+  <name>tidy_up</name>
+  <version>0.0.0</version>
+  <description>The tidy_up package</description>
+
+  <maintainer email="mimi@todo.todo">mimi</maintainer>
+  <license>MIT</license>
+
+  <!-- ビルドツール -->
+  <buildtool_depend>catkin</buildtool_depend>
+
+  <!-- ビルド時依存 -->
+  <build_depend>rospy</build_depend>
+  <build_depend>std_msgs</build_depend>
+  <build_depend>message_generation</build_depend>
+
+  <!-- 実行時依存 -->
+  <exec_depend>rospy</exec_depend>
+  <exec_depend>std_msgs</exec_depend>
+  <exec_depend>message_runtime</exec_depend>
+
+  <export>
+  </export>
+</package>

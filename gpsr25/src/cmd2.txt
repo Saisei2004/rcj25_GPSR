@@ -1,0 +1,120 @@
+["goToLoc", 
+go to the bedroom then meet Alice and answer a quiz
+navigate to the living room then find a box and get it and place it on the tall table
+go to the bedroom then find a box and take it and deliver it to me
+
+"findPrsInRoom", 
+find a person pointing to the left in the office and escort them to the bedroom
+look for a standing person in the bedroom and follow them to the living room
+find a person raising their right arm in the bedroom and tell where you come from
+
+"meetPrsAtBeac",
+meet Bob in the bedroom and follow them
+meet Bob in the living room and answer a question
+meet Alice in the living room and say where you come from
+
+ "countPrsInRoom",
+tell me how many people raising their right arm are in the office
+tell me how many people looking back are in the kitchen
+tell me how many people pointing to the left are in the bedroom
+
+ "tellPrsInfoInLoc",
+tell me the name of the person at the bedroom
+tell me the shirt color of the person in the kitchen
+tell me the height of the person at the living room
+
+"talkInfoToGestPrsInRoom", 
+tell what day today is to the person raising their right arm in the living room
+tell where RoboCup is held this year to the person giving the V sign in the living room
+tell what the time is to the person giving the V sign in the bedroom
+
+"answerToGestPrsInRoom", 
+answer the question of the person pointing to the left in the living room
+answer the question of the person giving the V sign in the office
+answer the question of the person raising their right arm in the kitchen
+
+"followNameFromBeacToRoom",
+follow Bob from the bedroom to the kitchen
+follow Charlie from the office to the bedroom
+follow Bob from the living room to the office
+
+"guideNameFromBeacToBeac",
+escort Charlie from the office to the kitchen
+lead Charlie from the living room to the office
+take Charlie from the office to the living room
+
+ "guidePrsFromBeacToBeac", 
+guide the sitting person from the office to the bedroom
+lead the person crossing one's arms from the bedroom to the kitchen
+take the person looking back from the kitchen to the bedroom
+
+"guideClothPrsFromBeacToBeac",
+lead the person wearing a black blouse from the living room to the kitchen
+lead the person wearing a black coat from the office to the living room
+escort the person wearing a red shirt from the office to the office
+
+"greetClothDscInRm", 
+salute the person wearing a gray blouse in the bedroom and follow them
+introduce yourself to the person wearing an orange sweater in the bedroom and tell what
+ the weather is like today
+salute the person wearing a black blouse in the living room and guide them to the office
+
+"greetNameInRm", 
+say hello to Bob in the living room and say what day today is
+greet Charlie in the office and answer a quiz
+say hello to Bob in the bedroom and answer a question
+
+"meetNameAtLocThenFindInRm",
+meet Charlie at the living room then look for them in the living room
+meet Alice at the living room then look for them in the bedroom
+meet Bob at the office then look for them in the living room
+
+ "countClothPrsInRoom",
+tell me how many people in the living room are wearing gray shirts
+tell me how many people in the office are wearing red shirts
+tell me how many people in the bedroom are wearing yellow t shirts
+
+"countClothPrsInRoom", 
+tell the name of the person at the living room to the person at the kitchen
+tell the name of the person at the bedroom to the person at the kitchen
+tell the height of the person at the living room to the person at the office
+
+"tellPrsInfoAtLocToPrsAtLoc",
+tell the name of the person at the bedroom to the person at the kitchen
+tell the shirt color of the person at the kitchen to the person at the bedroom
+tell the height of the person at the office to the person at the kitchen
+
+ "followPrsAtLoc"]
+follow the sitting person in the office
+follow the person looking back at the office
+follow the person crossing one's arms at the office
+
+
+"takeObjFromPlcmt", 
+get a cup from the shelf and place it on the tall table
+fetch a box from the tall table and bring it to the squatting person in the living room
+get a box from the tall table and put it on the shelf
+
+"findObjInRoom", 
+locate a cup in the bedroom then fetch it and place it on the tall table
+look for a bottle in the kitchen then take it and bring it to the person pointing to the left in the kitchen
+find a bottle in the office then fetch it and put it on the tall table
+"countObjOnPlcmt", 
+tell me how many cups there are on the tall table
+tell me how many cups there are on the table
+tell me how many bottles there are on the tall table
+
+"tellObjPropOnPlcmt"
+tell me what is the largest object on the table
+tell me what is the smallest object on the table
+tell me what is the lightest object on the table
+
+"bringMeObjFromPlcmt", 
+give me a bottle from the table
+bring me a bottle from the table
+give me a bottle from the tall table
+
+"tellCatPropOnPlcmt"]
+tell me what is the largest bottle on the table
+tell me what is the lightest box on the shelf
+tell me what is the largest box on the table
