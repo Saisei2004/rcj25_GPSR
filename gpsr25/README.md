@@ -811,7 +811,7 @@ AMCL等を使った自己位置推定から現在位置を購読しつつ、/cmd
 ---
 
 # gpsr-mono8.py
-- [gpsr-mono8.pyソースコード](mod/gpsr-mono8.py)
+- [gpsr-mono8.pyソースコード](mod/gpsr-mono7.py)
 ## 説明
 
 カメラ画像（/camera/color/image\_raw）を直接OpenAI API（gpt-4-turbo）に送り、ユーザー指定のプロンプトに対して画像全体を元に応答を得るサービスノードです。
